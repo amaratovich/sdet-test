@@ -16,6 +16,16 @@ public abstract class InstagramBase implements Instagram {
         }
 
     }
+// this is a commit
+//    public InstagramBase(String username, String password) throws Exception {
+//        if (username.length() >= 6 && PasswordValidator.isValid(password)) {
+//            this.username = username;
+//            this.password = password;
+//        }  else {
+//            throw new Exception("invalid username or password");
+//        }
+//
+//    }
 
     public String getUsername() {
         return username;
