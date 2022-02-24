@@ -20,8 +20,7 @@ public class InstagramMain {
         System.out.println(adik.getUserId()+ " id");
 
         Instagram.unsubscribe(aza, adik.getUserId());
-//        Instagram.unsubscribe(aza,azi.getUserId());
-//        Instagram.unsubscribe(aza,adik.getUserId());
+
 
         System.out.println(aza.getSubscribers());
 
