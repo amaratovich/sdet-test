@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public interface Instagram {
+    // This is Instagram Account
     List<Instagram> dataBase = new ArrayList<>();
 
     void subscribe(Instagram sender);
